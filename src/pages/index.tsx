@@ -1,7 +1,15 @@
 import Head from "next/head";
-import { Box, ListItem, Spinner, Text, UnorderedList } from "@chakra-ui/react";
+import {
+  Box,
+  ListItem,
+  Spinner,
+  Text,
+  UnorderedList,
+  useToast,
+} from "@chakra-ui/react";
 import styles from "../styles/Home.module.css";
 import ADSR from "@/components/ADSR";
+import { useEffect } from "react";
 
 export default function Home() {
   return (
