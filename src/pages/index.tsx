@@ -1,8 +1,7 @@
 import Head from "next/head";
-import { Box, Text, UnorderedList, ListItem, Button } from "@chakra-ui/react";
+import { Box, ListItem, Spinner, Text, UnorderedList } from "@chakra-ui/react";
 import styles from "../styles/Home.module.css";
-import Toast from "@/components/Toast";
-import SketchTest from "@/components/SketchTest";
+import ADSR from "@/components/ADSR";
 
 export default function Home() {
   return (
@@ -18,16 +17,13 @@ export default function Home() {
             Envelope App
           </Text>
           <Text>
-            Currently, being worked on as a project to showcase my love for the
-            simple knowledge that ADSR can bring. Also, to learn more about
-            React, Next.js, and Front-end technologies.
+            This project is intended to showcase my love for the simple
+            knowledge that ADSR can bring. Also, to learn more about React,
+            Next.js, and Front-end technologies.
           </Text>
         </Box>
-        <Box bg="tomato" w="80%" p={6} color="white">
-          <Text align={"center"}>ADSR Placeholder</Text>
-        </Box>
         <Box>
-          <SketchTest />
+          <ADSR />
         </Box>
         <Box>
           <Text as="i">&quot;ADSR is life!&quot;</Text>
