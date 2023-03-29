@@ -15,7 +15,7 @@ const Line = (props: LineProps) => {
       x2={end[0]}
       y2={end[1]}
       stroke="black"
-      strokeWidth={2}
+      strokeWidth={3}
     />
   );
 };

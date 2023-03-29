@@ -9,11 +9,11 @@ interface PointProps {
 const Point = (props: PointProps) => {
   const { x, y, isSolid } = props;
   return isSolid ? (
-    <animated.circle cx={x} cy={y} r={5} fill="black" />
+    <animated.circle cx={x} cy={y} r={7} fill="black" />
   ) : (
     <>
-      <animated.circle cx={x} cy={y} r={5} fill="black" />
-      <animated.circle cx={x} cy={y} r={2} fill="white" />
+      <animated.circle cx={x} cy={y} r={7} fill="black" />
+      <animated.circle cx={x} cy={y} r={4} fill="white" />
     </>
   );
 };

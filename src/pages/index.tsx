@@ -1,28 +1,20 @@
 import Head from "next/head";
-import {
-  Box,
-  ListItem,
-  Spinner,
-  Text,
-  UnorderedList,
-  useToast,
-} from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import styles from "../styles/Home.module.css";
 import ADSR from "@/components/ADSR";
-import { useEffect } from "react";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Envelope App</title>
+        <title>ADSR Tool</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <Box>
           <Text fontSize="3xl" fontWeight={"Bold"} mb={4}>
-            Envelope App
+            ADSR Tool
           </Text>
           <Text>
             This project is intended to showcase my love for the simple
