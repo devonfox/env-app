@@ -1,7 +1,7 @@
 import { animated, useSpring } from "@react-spring/web";
 import Point from "@/components/Point";
 import Line from "@/components/Line";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import EnvSlider from "@/components/Slider";
 import { Box } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
@@ -15,10 +15,10 @@ const SUSTAIN_LENGTH = 100;
 const END: number = MAX_WIDTH - 10;
 
 const DEFAULT_STATE = {
-  attack: START_X + 20,
-  decay: 55,
+  attack: START_X + 40,
+  decay: 75,
   sustain: 0.5 * BOTTOM_Y,
-  release: 180,
+  release: 250,
 };
 
 const ADSR = () => {
