@@ -19,10 +19,10 @@ export default function Home() {
           <Text>
             This project is intended to showcase my love for the simple
             knowledge that ADSR can bring. Also, to learn more about React,
-            Next.js, and Front-end technologies.
+            Next.js, and front-end technologies.
           </Text>
         </Box>
-        <Box>
+        <Box mt={20}>
           <ADSR />
         </Box>
         <Box>

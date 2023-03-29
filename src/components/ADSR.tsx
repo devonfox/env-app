@@ -16,9 +16,9 @@ const END: number = MAX_WIDTH - 10;
 
 const DEFAULT_STATE = {
   attack: START_X + 40,
-  decay: 75,
+  decay: 160,
   sustain: 0.5 * BOTTOM_Y,
-  release: 250,
+  release: 330,
 };
 
 const ADSR = () => {
