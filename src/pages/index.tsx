@@ -25,7 +25,7 @@ export default function Home() {
         <Box mt={20}>
           <ADSR />
         </Box>
-        <Box>
+        <Box mt={20}>
           <Text as="i">&quot;ADSR is life!&quot;</Text>
         </Box>
       </main>
