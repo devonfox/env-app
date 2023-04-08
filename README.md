@@ -4,6 +4,8 @@ This is a React app that will teach how amplitude envelopes work through an inte
 
 *todo: add more description surrounding the project*
 
+Previews deployed at: http://adsr.devonfox.xyz/
+
 ## Getting Started
 
 First, run the development server:
