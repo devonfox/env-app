@@ -1,3 +1,5 @@
+EDIT: Decided to kill this version, and start over with React Router (remix) v7 in a new repo
+
 # Env-app
 
 This is a React app that will teach how amplitude envelopes work through an interactive tutorial.
